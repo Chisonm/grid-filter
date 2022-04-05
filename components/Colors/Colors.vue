@@ -26,10 +26,11 @@
   margin-bottom: 2rem;
 }
 .colors{
-  width: 40px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   @include mobile{
-    height: 25px;
+    width: 50px;
+    height: 30px;
   }
   border-radius: 50%;
   border: 1px solid $dark-gray;
