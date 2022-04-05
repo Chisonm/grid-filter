@@ -29,8 +29,7 @@
   width: 50px;
   height: 50px;
   @include mobile{
-    width: 50px;
-    height: 30px;
+    height: 25px;
   }
   border-radius: 50%;
   border: 1px solid $dark-gray;
