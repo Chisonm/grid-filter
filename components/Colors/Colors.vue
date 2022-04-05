@@ -1,5 +1,5 @@
 <template>
-  <div class="shapes">
+  <div class="color">
       <h1 class="shapes-header">Colors</h1>
 
       <div class="flex-container">
@@ -26,8 +26,11 @@
   margin-bottom: 2rem;
 }
 .colors{
-  width: 30px;
+  width: 40px;
   height: 30px;
+  @include mobile{
+    height: 25px;
+  }
   border-radius: 50%;
   border: 1px solid $dark-gray;
   margin-right: 2rem;
